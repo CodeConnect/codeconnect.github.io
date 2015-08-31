@@ -133,7 +133,9 @@ In conclusion, ff the parameter is a `string`, then you need to parse it, valida
 
 # Conclusion
 
-Initially I dismissed `ParseText` approach thinking that `SyntaxFactory` is *the closest to the metal* and therefore the fastest. However, `SyntaxFactory` allocates roughly twice as many objects as `ParseText`, which is highly optimized. Read [Robin Sedlaczek’s excellent analysis of Roslyn’s performance](https://robinsedlaczek.wordpress.com/2015/04/29/inside-the-net-compiler-platform-performance-considerations-during-syntax-analysis-speakroslyn/) and if you have an hour, watch [Dustin Campbell’s presentation on performance in a large codebase](https://channel9.msdn.com/Events/TechEd/NorthAmerica/2013/DEV-B333#fbid=). 
+Initially I dismissed `ParseText` approach thinking that `SyntaxFactory` is the fastest because it is *the closest to the metal*. However, `SyntaxFactory` is slower than `ParseText` and allocates roughly twice as many objects than `ParseText`.
+
+There are many surprising and clever performance optimizations in Roslyn's source code: read [Robin Sedlaczek’s excellent analysis of Roslyn’s performance](https://robinsedlaczek.wordpress.com/2015/04/29/inside-the-net-compiler-platform-performance-considerations-during-syntax-analysis-speakroslyn/) and if you have an hour, watch [Dustin Campbell’s presentation on performance in a large codebase](https://channel9.msdn.com/Events/TechEd/NorthAmerica/2013/DEV-B333#fbid=). 
 
 ### The source code
 The source code to the generator is [available on GitHub](https://github.com/CodeConnect/SyntaxFactoryVsParseText)
