@@ -143,12 +143,10 @@ The source code to the generator is [available on GitHub](https://github.com/Cod
 You can follow the call tree which is identical in both `ParseTextCodeGenerator` and `SyntaxFactoryCodeGenerator`. The entry point is method `GenerateType`, which calls `getAllMembers`. This method calls both `getRunMethod` and `getMethods`. The former calls `getMethodInvocations` and the latter one calls `getMethodBody`. There is an extra step in the `ParseTextCodeGenerator.GenerateType`: you must get the root of the tree and descend to down the child nodes to find the desired `TypeDeclarationSyntax`.
 
 `ParseText` code generation:
-![Screenshot of code generated with Code Connect](/images/SyntaxFactory-vs-ParseText/ptCode.png)
+[![Screenshot of code generated with Code Connect](/images/SyntaxFactory-vs-ParseText/ptCode.png)](https://i.gyazo.com/e4359621666c21483b09d58b8305f271.png)
 
 `SyntaxFactory` code generation:
-![Screenshot of code generated with Code Connect](/images/SyntaxFactory-vs-ParseText/sfCode.png)
-
-
+[![Screenshot of code generated with Code Connect](/images/SyntaxFactory-vs-ParseText/sfCode.png)](https://i.gyazo.com/3b71a2d6b6286ad7534a7099239f415f.png)
 
 
 Follow us on Twitter: [@GetCodeConnect](http://twitter.com/GetCodeConnect)
