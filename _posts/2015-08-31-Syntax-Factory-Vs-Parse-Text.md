@@ -5,7 +5,7 @@ title: Code Generation with Roslyn - Comparison of SyntaxFactory and CSharpParse
 
 At Code Connect, we need to generate C# code that runs our user’s unit tests. We devised an internal code framework which discovers relevant methods (e.g. test methods, test initialize and test cleanup) and builds C# code which invokes them in the order that testing framework would invoke them.
 
-We’ve been using [`Microsoft.CodeAnalysis.SyntaxFactory`](http://source.roslyn.io/#Microsoft.CodeAnalysis.CSharp/Syntax/SyntaxFactory.cs,4fb8e71831d97959) for all code generation needs, but its implementation requires really verbose code itself. We decided to test its performance against [`CSharpSyntaxTree.ParseText`](http://source.roslyn.io/#Microsoft.CodeAnalysis.CSharp/Syntax/CSharpSyntaxTree.cs,f4e9b1e7862d75c8)
+We’ve been using [`Microsoft.CodeAnalysis.SyntaxFactory`](http://source.roslyn.io/#Microsoft.CodeAnalysis.CSharp/Syntax/SyntaxFactory.cs,4fb8e71831d97959) for all code generation needs, but its implementation requires really [lengthy code](https://github.com/CodeConnect/SyntaxFactoryVsParseText/blob/master/src/CodeConnect.SyntaxFactoryVsParseText.Benchmark/SyntaxFactoryCodeGenerator.cs). We decided to test its performance against [`CSharpSyntaxTree.ParseText`](http://source.roslyn.io/#Microsoft.CodeAnalysis.CSharp/Syntax/CSharpSyntaxTree.cs,f4e9b1e7862d75c8)
 
 The task in our benchmark is to generate code that consists of a class and a number of methods. 
 To test performance with different sizes of syntax trees, we'll measure the performance when we build between 1 and 4096 methods in a class. Furthermore, we’ll measure the performance when generated methods are empty and when they contains 4 syntactically rich lines of C# code. 
