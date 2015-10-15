@@ -3,7 +3,10 @@ layout: post
 title: UI Throwback Thursday
 ---
 
-With [Alive](//comealive.io/) scheduled to be released as v1.0 on October 26th (psst! that's when the discount for early adopters ends), I wanted to look back in time at Alive as it transformed from a prototype to its current state. Our early adopters played a big role in the evolution of user interface, either actively discussing their pain points, or passively, by being our customers and motivating us to give their tool the perfect shape.
+With [Alive](//comealive.io/) scheduled to be released as v1.0 on October 26th (psst, that's when the discount for early adopters ends!) I wanted to look back in time at Alive, as it transformed from a prototype to its current state. Our early adopters played a big role in the evolution of user interface, either actively discussing their pain points, or passively, by being our customers and motivating us to give their tool the perfect shape.
+
+
+![screenshot](/images/UI-Throwback-Thursday/v06ui.png)
 
 # Alpha, v0.2
 
