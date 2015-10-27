@@ -17,7 +17,7 @@ To celebrate, I thought it'd be fun to take a look at how far we've come and how
 
 #### Alive Today
 
-<video autoplay loop width="640" height="250" preload>
+<video autoplay loop width="640" height="300" preload>
 		<source src="https://codeconnectcdn.blob.core.windows.net/cdn/blog/alivenw.mp4" type="video/mp4">
 		<source src="https://codeconnectcdn.blob.core.windows.net/cdn/blog/alivenew.webm" type="video/webm">
 </video>
@@ -29,11 +29,15 @@ Alive originally bulk ran test cases from within the `devenv.exe` process. Suffi
 
 Which leads to this:
 
+<center>
 ![image](http://i.imgur.com/3lcRlkF.png)
+</center>
 
 Which leads to this:
 
+<center>
 ![image](http://i.imgur.com/wRtn5wy.gif)
+</center>
 
 We've since made the filtering of test cases option and moved our bulk test runner out of process where it can't directly cause any harm to Visual Studio.
 
