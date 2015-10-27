@@ -45,7 +45,7 @@ We've since made the filtering of test cases optional and moved our bulk test ru
 
 You can run a method and then jump to called methods and use Alive on them, while still kicking off execution from the original method.
 
-<video autoplay loop width="640" height="250" preload>
+<video autoplay loop width="640" height="300" preload>
 		<source src="https://codeconnectcdn.blob.core.windows.net/cdn/blog/alive_continue.mp4" type="video/mp4">
 		<source src="https://codeconnectcdn.blob.core.windows.net/cdn/blog/alive_continue.webm" type="video/webm">
 </video>
@@ -53,7 +53,7 @@ You can run a method and then jump to called methods and use Alive on them, whil
 
 You can now run test methods directly, making it easy to start new sessions of Alive quickly.
 
-<video autoplay loop width="640" height="250" preload>
+<video autoplay loop width="640" height="400" preload>
 		<source src="https://codeconnectcdn.blob.core.windows.net/cdn/docs/TestMethod.mp4" type="video/mp4">
 		<source src="https://codeconnectcdn.blob.core.windows.net/cdn/docs/TestMethod.webm" type="video/webm">
 </video>
