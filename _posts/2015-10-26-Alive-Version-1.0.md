@@ -17,7 +17,7 @@ To celebrate, I thought it'd be fun to take a look at how far we've come and how
 #### Alive Today
 
 <video autoplay loop width="640" height="300" preload>
-		<source src="https://codeconnectcdn.blob.core.windows.net/cdn/blog/alivenw.mp4" type="video/mp4">
+		<source src="https://codeconnectcdn.blob.core.windows.net/cdn/blog/alivenew.mp4" type="video/mp4">
 		<source src="https://codeconnectcdn.blob.core.windows.net/cdn/blog/alivenew.webm" type="video/webm">
 </video>
 
