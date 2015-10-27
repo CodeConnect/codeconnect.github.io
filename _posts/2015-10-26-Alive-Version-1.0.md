@@ -65,7 +65,7 @@ We've still got a lot a lot of work ahead of us and we're not slowing down. Perf
 
 We've also heard requests for support to be extended to Javascript, Java, Python and VB.NET. While we don't have anything concrete to announce, we are planning to support a second language over the course of 2016.
 
-Want more information on Alive? Check out our site at http://comealive.io.
+Want more information on Alive? Check out our site at [http://comealive.io](http://comealive.io).
 
 
 
