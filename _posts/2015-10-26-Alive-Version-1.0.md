@@ -39,7 +39,7 @@ Which leads to this:
 ![image](http://i.imgur.com/wRtn5wy.gif)
 </center>
 
-We've since made the filtering of test cases option and moved our bulk test runner out of process where it can't directly cause any harm to Visual Studio.
+We've since made the filtering of test cases optional and moved our bulk test runner out of process where it can't directly interfere with Visual Studio.
 
 ## New Features
 
