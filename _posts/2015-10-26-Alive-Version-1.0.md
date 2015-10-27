@@ -3,7 +3,7 @@ layout: post
 title: Alive v1.0 Released!
 ---
 
-It's been almost six months since we first announced [Alive](http://comealive.io) and we've been working hard building out features and fixing bugs. Today we're excited to announce Alive v1.0 and with this release we're please to offer a **free 30 day trial**.
+It's been almost six months since we first announced [Alive](http://comealive.io) and we've been working hard building out features and fixing bugs. Today we're excited to announce Alive v1.0 and with this release we're finally able to offer a **free 30 day trial**. You can download Alive from the [Visual Studio Gallery](https://visualstudiogallery.msdn.microsoft.com/4af8eb1a-c64f-4da8-9bf0-6835cf3e95c8) and start the trial from within Visual Studio.
 
 To celebrate, I thought it'd be fun to take a look at how far we've come and how we got here.
 
