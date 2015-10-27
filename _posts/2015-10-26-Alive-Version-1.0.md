@@ -61,9 +61,12 @@ You can now run test methods directly, making it easy to start new sessions of A
 
 ## Still work to be done
 
-The Alive Team still has a lot of work to be done. Performance isn't where we need it to be when working with large projects like EntityFramework and Roslyn and a number of known bugs remain unsquashed. We've also heard requests for support to be extended to Javascript, Java, Python and VB.NET. While we don't have anything concrete to announce, we are planning to support a second language over the course of 2016.
+We've still got a lot a lot of work ahead of us and we're not slowing down. Performance isn't where we need it to be when working with large projects like Roslyn and a number of known bugs remain unsquashed. We're planning to bring support to DNX projects in the next couple months. As ASP.NET vNext and DNX stabilize, they should become easier targets for us to hit. 
 
-One final note is that we're hoping to bring support to DNX projects in the next couple months. As the new ASP.NET stabilizes, it should become an easier target for us to reach. 
+We've also heard requests for support to be extended to Javascript, Java, Python and VB.NET. While we don't have anything concrete to announce, we are planning to support a second language over the course of 2016.
+
+Want more information on Alive? Check out our site at http://comealive.io.
+
 
 
 
