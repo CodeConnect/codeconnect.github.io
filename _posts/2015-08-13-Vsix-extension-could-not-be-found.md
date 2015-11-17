@@ -29,4 +29,4 @@ Other solutions that we've found, but didn't work for us
 
 Good luck!
 
-Follow us on Twitter: [@GetCodeConnect](http://twitter.com/GetCodeConnect)
+Follow us on Twitter: [@CodeConnectHQ](https://twitter.com/CodeConnectHQ)
