@@ -182,4 +182,4 @@ Microsof.VisualStudio.Shell.Platform.WindowManagement.dll
 Microsof.VisualStudio.Shell.ViewManager.dll
 ```
 
-Follow us on Twitter: [@GetCodeConnect](http://twitter.com/GetCodeConnect)
+Follow us on Twitter: [@CodeConnectHQ](https://twitter.com/CodeConnectHQ)
