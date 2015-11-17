@@ -149,4 +149,4 @@ You can follow the call tree which is identical in both `ParseTextCodeGenerator`
 [![Screenshot of code generated with Code Connect](/images/SyntaxFactory-vs-ParseText/sfCode.png)](https://i.gyazo.com/3b71a2d6b6286ad7534a7099239f415f.png)
 
 
-Follow us on Twitter: [@GetCodeConnect](http://twitter.com/GetCodeConnect)
+Follow us on Twitter: [@CodeConnectHQ](https://twitter.com/CodeConnectHQ)
