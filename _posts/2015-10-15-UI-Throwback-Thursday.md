@@ -74,4 +74,4 @@ And last but not least, aligning code execution results to the right made them m
 
 [Multiply your productivity with Alive](//comealive.io/)
 
-Follow us on Twitter: [@GetCodeConnect](http://twitter.com/GetCodeConnect)
+Follow us on Twitter: [@CodeConnectHQ](https://twitter.com/CodeConnectHQ)
