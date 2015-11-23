@@ -20,6 +20,11 @@
       <li class="sidebar-nav-item">
         <a href="http://blog.comealive.io/About">About</a>
       </li>
+      {% if site.footer-links.twitter %}
+      <li class="sidebar-nav-item">
+        <a href="https://www.twitter.com/{{ site.footer-links.twitter }}"><i class="svg-icon twitter"></i></a>
+      </li>
+      {% endif %}
     </ul>
 
     
