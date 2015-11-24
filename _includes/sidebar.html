@@ -21,10 +21,7 @@
         <a href="http://blog.comealive.io/About">About</a>
       </li>
       <li class="sidebar-nav-item">
-        <a href="{{ site.baseurl }}/feed.xml"><i class="svg-icon rss"></i></a>
-        {% if site.footer-links.twitter %}
-        <a href="https://www.twitter.com/{{ site.footer-links.twitter }}"><i class="svg-icon twitter"></i></a>
-        {% endif %}
+        {% include svg-icons.html %}
       </li>
     </ul>
 
