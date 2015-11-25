@@ -51,7 +51,9 @@ It turns out that in the **RealWorld™** (at least in the context of managed la
 
 Garbage collection in .NET can be triggered by a single allocation. Without digressing too much, the GC must occasionally suspend all running threads when it runs. If you’re building user-facing applications this means for a moment in time your UI locks up. And when your UI locks up, users tend to react poorly.
 
+<center>
 ![image](https://cdn-images-1.medium.com/max/1200/1*elLkg4-CzJ_JtE5GdCiL6w.gif)
+</center>
 
 Avoiding allocations on hot paths can help us avoid these GC pauses and improve our application’s responsiveness.
 
