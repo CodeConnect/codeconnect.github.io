@@ -26,4 +26,4 @@ Code Connect
 - Email:&nbsp; [founders@comealive.io](mailto:founders@comealive.io)
 - Twitter: [Amadeus at @HiAmadeus](https://twitter.com/HiAmadeus)
 - Twitter: [Josh at @ThisIsJoshVarty](https://twitter.com/GetCodeConnect)
-- Twitter: [Code Connect Inc. at @GetCodeConnect](https://twitter.com/GetCodeConnect)
+- Twitter: [Code Connect Inc. at @CodeConnectHQ](https://twitter.com/CodeConnectHQ)
