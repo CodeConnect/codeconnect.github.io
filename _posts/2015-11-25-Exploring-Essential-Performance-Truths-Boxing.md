@@ -80,10 +80,10 @@ The third line is essentially equivalent to simply writing:
 string result = String.Concat(id.ToString(), ':', size.ToString());
 ```
 
-The problem here is that there is no overload that accepts `(string, char, string)` so the compiler resolves to `(object, object, object)`. The net result here is that `char` (a value type) gets boxed. The fix is to force an overload to `(string, string, string)` as follows:
+The problem here is that there is no overload that accepts `(string, char, string)` so the compiler resolves to `(object, object, object)`. The net result here is that `char` (a value type) gets boxed. We can solve this by concatenating three strings together instead:
 
 ```CSharp
-string result = id.ToString() + ":" + size.ToString();   //Resolves to String.Concat(string, string, string)
+string result = id.ToString() + ":" + size.ToString();
 ```
 
 This small change doesn't really compromise readability, so it's probably worth applying broadly to your codebase where applicable. 
