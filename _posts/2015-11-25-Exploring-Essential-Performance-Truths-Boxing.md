@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Exploring "Essential Performance Truths" - Boxing
+title: Exploring Essential Performance Truths - Boxing
 ---
 
 In [Part 1](http://blog.comealive.io/Exploring-Essential-Performance-Truths/), we discussed four facts about performance in a large, user-facing, managed codebase. Ultimately most fixable bottlenecks in these systems come down to allocations and the garbage collector (GC). Today we'll look at a common source of wasteful allocations: Boxing.
