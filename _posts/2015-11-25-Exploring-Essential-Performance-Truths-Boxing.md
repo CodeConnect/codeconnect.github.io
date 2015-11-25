@@ -31,7 +31,7 @@ Note that we've not only allocated on the heap, but we're using three times as m
 
 So how can we measure and detect when boxing is taking place? One way is to use Visual Studio's Diagnostic tools to take a heap snapshot and then look for values like `Int32` or `Char` on the heap. You can click on them and see how they were allocated. Here we box a bunch of local variables:
 
-<video autoplay loop preload height="377" width="900">
+<video autoplay loop preload height="300" width="717">
 		<source src="https://codeconnectcdn.blob.core.windows.net/cdn/blog/BoxingInts.mp4" type="video/mp4">
 		<source src="https://codeconnectcdn.blob.core.windows.net/cdn/blog/BoxingInts.webm" type="video/webm">
 </video>
