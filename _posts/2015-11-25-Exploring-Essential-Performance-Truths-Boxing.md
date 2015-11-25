@@ -48,7 +48,7 @@ string result = String.Format("{0}:{1}", id, size);
 
 The problem is a little clearer when we hover over `String.Format` and Visual Studio shows us the overload we're using.
 
-![image](https://cloud.githubusercontent.com/assets/1249087/11407853/6ec832f2-9383-11e5-97ff-89e9d2407a1e.png)
+![image](https://cloud.githubusercontent.com/assets/1249087/11408844/bfc72086-9389-11e5-9a3e-72a8962c1d7b.png)
 
 The issue isn't immediately clear without Visual Studio, so similar code likely passes code reviews every day. The problem here is that `String.Format` accepts two objects as parameters and we're passing in integer. This means our two integers get boxed and thus heap-allocated. :(
 
