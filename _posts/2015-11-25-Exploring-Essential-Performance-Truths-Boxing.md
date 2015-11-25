@@ -77,7 +77,7 @@ string result = id.ToString() + ':' + size.ToString();
 The third line is essentially equivalent to simply writing:
 
 ```CSharp
-string result = String.Concat(id.ToString(), ‘:', size.ToString());
+string result = String.Concat(id.ToString(), ':', size.ToString());
 ```
 
 The problem here is that there is no overload that accepts `(string, char, string)` so the compiler resolves to `(object, object, object)`. The net result here is that `char` (a value type) gets boxed. The fix is to force an overload to `(string, string, string)` as follows:
