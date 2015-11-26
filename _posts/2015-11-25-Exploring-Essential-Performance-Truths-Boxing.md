@@ -109,7 +109,7 @@ public class BoxingExample
 }
 ```
 
-It turns out the internal implementation of `enum.GetHashCode()` boxes. In Bill Chile's original document, he said:
+It turns out the internal implementation of `enum.GetHashCode()` boxes. In Bill Chiles' original document, he said:
 
 >This problem is very subtle. PerfView would report this as `enum.GetHashCode()` boxing because for implementation reasons, this method boxes the underlying representation of the enumeration type. If you look closely in PerfView, you may see two boxing allocations for each call to `GetHashCode()`. The compiler inserts one, and the .NET Framework inserts the other.
 
