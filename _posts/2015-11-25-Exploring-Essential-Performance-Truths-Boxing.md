@@ -113,7 +113,7 @@ It turns out the internal implementation of `enum.GetHashCode()` boxes. In Bill 
 
 >This problem is very subtle. PerfView would report this as `enum.GetHashCode()` boxing because for implementation reasons, this method boxes the underlying representation of the enumeration type. If you look closely in PerfView, you may see two boxing allocations for each call to `GetHashCode()`. The compiler inserts one, and the .NET Framework inserts the other.
 
-So he doesn't specify exactly why the boxing takes place beyond "implementation reasons". These days, we can [view the source](http://referencesource.microsoft.com/#mscorlib/system/enum.cs,f527a799d76cc18a) code ourselves. I did that and… I honestly still had no idea why it's boxing. ~~So if you understand, please leave a comment and I'll add it below~~:
+So he doesn't specify exactly why the boxing takes place beyond "implementation reasons". These days, we can [view the source](http://referencesource.microsoft.com/#mscorlib/system/enum.cs,f527a799d76cc18a) code ourselves. I did that and… I honestly still had no idea why it's boxing. ~~So if you understand, please leave a comment and I'll add it below~~
 
 In the comments Martin pointed out that it's because of the internal call to `JitHelpers.GetPinningHelper(Object)`. This method accepts `object`, so our `enum` is boxed here. Thanks Martin! :)
 
