@@ -3,7 +3,7 @@ layout: post
 title: Continous Integration times out when building VSIX project
 ---
 
-Recently our AppVeyor builds of Alive started to intermittently fail with message * *Build execution time has reached the maximum allowed time for your plan (60 minutes).** We fixed it with a one line change to the .csproj
+Recently our AppVeyor builds of Alive started to intermittently fail with message **Build execution time has reached the maximum allowed time for your plan (60 minutes).** We fixed it with a one line change to the .csproj
 
 If the build succeeds and all tests pass, yet your Visual Studio Extension (VSIX) project times out, check the AppVeyor console for the following line:
 
