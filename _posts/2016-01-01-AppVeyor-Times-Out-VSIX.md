@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Continous Integration times out when building VSIX project
+title: Continuous Integration times out when building VSIX project
 ---
 
 Recently our AppVeyor builds started to intermittently fail with message **Build execution time has reached the maximum allowed time for your plan (60 minutes).** We fixed it with a one line change to the .csproj
