@@ -19,9 +19,19 @@ Hit `Ctrl+Shift+B` to build the solution. Once it builds, restore **Command line
 
 This time the package will be built and the extension will be deployed to the Experimental Instance of Visual Studio.
 
+### Update: Another solution
+
+*This section was added on 2016.01.14*
+
+The above fix doesn't always work. [Zpqrtbnk pointed out](https://github.com/zpqrtbnk/Zbu.ModelsBuilder/issues/52#issuecomment-171639289) that the error can be corrected by manually launching and closing the experimental instance of Visual Studio.
+
+![start experimental instance](/images/Vsix-extension-could-not-be-found/manualStart.png)
+
+It looks like closing the experimental instance fixes its state. After power-cycling VS like this, you should be able to build and deploy your package.
+
 ### Other solutions
 
-Other solutions that we've found, but didn't work for us
+Other solutions that we've found, but didn't *always* work for us
 
  - Increasing the version of the package in the .vsixmanifest file
  - Running **Reset the Visual Studio 2015 Experimental Instance** tool
