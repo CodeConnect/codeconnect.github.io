@@ -28,18 +28,18 @@ Over the last few months we reached out to users via interviews, surveys and our
 		<source src="https://codeconnectcdn.blob.core.windows.net/cdn/blog/2016.02.02/PlayIcon.webm" type="video/webm">
 </video>
 
-Test icon - You’ll have to launch this method via test case.
+**Test icon - You’ll have to launch this method via test case**
 
 <video autoplay loop preload>
 		<source src="https://codeconnectcdn.blob.core.windows.net/cdn/blog/2016.02.02/TestIcon.mp4" type="video/mp4">
 		<source src="https://codeconnectcdn.blob.core.windows.net/cdn/blog/2016.02.02/TestIcon.webm" type="video/webm">
 </video>
 
-Error icon - There was a warning, error or exception when running your code. Simply over over this icon to see the root cause.
+**Error icon - There was a warning, error or exception when running your code. Simply over over this icon to see the root cause**
 
 <video autoplay loop preload>
-		<source src="https://codeconnectcdn.blob.core.windows.net/cdn/blog/2016.02.02/ErrorIcon.mp4" type="video/mp4">
-		<source src="https://codeconnectcdn.blob.core.windows.net/cdn/blog/2016.02.02/ErrorIcon.webm" type="video/webm">
+		<source src="https://codeconnectcdn.blob.core.windows.net/cdn/blog/2016.02.02/WarningIcon.mp4" type="video/mp4">
+		<source src="https://codeconnectcdn.blob.core.windows.net/cdn/blog/2016.02.02/WarningIcon.webm" type="video/webm">
 </video>
 
 ## Performance
@@ -71,4 +71,4 @@ In November we didn’t really have a good answer to this. Alive v1.0 was only a
 
 ### Entity Framework and Embedded Resources
 
-Alive has had a known bug (since October!) that affects code that interacts with Entity Framework. The underlying reason for this is that EF uses a custom built task to embed special CSDL, MSL and SSDL resources within the output DLL. It turns out we had a similar problem embedding .resx resource files within output DLLs. We’re happy to announce that we’ve fixed both these issues and Alive should work find with both Entity Framework and embedded resources!
+Alive has had a known bug (since October!) that affects code that interacts with Entity Framework. The underlying reason for this is that EF uses a custom built task to embed special CSDL, MSL and SSDL resources within the output DLL. It turns out we had a similar problem embedding `.resx` resource files within output DLLs. We’re happy to announce that we’ve fixed both these issues and Alive should work find with both Entity Framework and embedded resources!
