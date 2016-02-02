@@ -56,7 +56,7 @@ This was true no only for referenced DLLs, but for DLLs generated when building 
 
 Next, we realized that we could save a healthy chunk of time if we avoided emitting frequently changing DLLs to disk. Instead we’d compile and emit them directly to memory. This saved us a lot of unnecessary I/O overhead and improved performance by about 30%.
 
-Instance Methods
+### Instance Methods
 
 Another common piece of feedback we heard from users was:
 
