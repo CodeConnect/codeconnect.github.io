@@ -28,6 +28,9 @@ Over the last few months we reached out to users via interviews, surveys and our
 		<source src="https://codeconnectcdn.blob.core.windows.net/cdn/blog/2016.02.02/PlayIcon.webm" type="video/webm">
 </video>
 
+<br />
+<br />
+
 **Test icon - You’ll have to launch this method via test case**
 
 <video autoplay loop preload>
