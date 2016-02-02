@@ -38,7 +38,7 @@ Over the last few months we reached out to users via interviews, surveys and our
 		<source src="https://codeconnectcdn.blob.core.windows.net/cdn/blog/2016.02.02/TestIcon.webm" type="video/webm">
 </video>
 
-**Error icon - There was a warning, error or exception when running your code. Simply over over this icon to see the root cause**
+**Error icon - There was a warning, error or exception when running your code. Hover over this icon to see the root cause**
 
 <video autoplay loop preload>
 		<source src="https://codeconnectcdn.blob.core.windows.net/cdn/blog/2016.02.02/WarningIcon.mp4" type="video/mp4">
