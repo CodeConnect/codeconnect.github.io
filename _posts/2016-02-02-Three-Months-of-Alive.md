@@ -8,7 +8,7 @@ Just three months ago we released [Alive](http://comealive.io) v1.0 to the publi
 
 ### UX: Drilldown
 
-Alive had some serious drawbacks when it came to working with complex datatypes. In order to inspect properties of an object, we’d have to create intermediate variables and wait for Alive to re-run our code.
+Previous version of Alive had serious drawbacks when it came to working with complex datatypes. In order to inspect properties of an object, we’d have to create intermediate variables and wait for Alive to re-run our code. To deal with this, we've implemented first level drilldown:
 
 <video autoplay loop preload>
 		<source src="https://codeconnectcdn.blob.core.windows.net/cdn/blog/2016.02.02/DrillDown.mp4" type="video/mp4">
