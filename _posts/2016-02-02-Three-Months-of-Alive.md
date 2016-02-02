@@ -4,7 +4,7 @@ title: Three Months of Alive
 ---
 
 
-Just three months ago we released [Alive](http://comealive.io) v1.0 to the public. Since then we’ve been working hard to address your feedback and continue to improve Alive. In total, we published 12 releases with a focus on improved user experience, better performance and expanding the type of code Alive can run.
+Just three months ago we released [Alive](http://comealive.io) v1.0 to the public. Since then we’ve been working hard to address your feedback and continue to improve Alive. In total, we published [12 releases](https://github.com/CodeConnect/AliveFeedback/wiki) with a focus on improved user experience, better performance and expanding the type of code Alive can run.
 
 ### UX: Drilldown
 
