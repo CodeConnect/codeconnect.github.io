@@ -53,7 +53,7 @@ As we hurried to ensure Alive met all its functional goals in time for our relea
 
 Alive runs your code after compiling and emitting it to a directory in `%LocalAppData%`. This means we have to copy all referenced DLLs to the directory before running your code. The first step we took was to stop any unnecessary copies of DLLs to this directory. If an assembly hasn’t changed between subsequent runs of Alive, we shouldn’t waste time copying it around.
 
-This was true not only for referenced DLLs, but for DLLs generated when building your projects. In fact, if a project hasn’t changed we shouldn’t even waste time compiling it in the first place and instead cache the DLL.
+This was true not only for referenced DLLs, but for DLLs generated when compiling your projects. In fact, if a project hasn’t changed we shouldn’t even waste time compiling it in the first place and instead cache the DLL.
 
 ### Performance: Emit To Memory
 
@@ -74,7 +74,7 @@ In November we didn’t really have a good answer to this. Alive v1.0 was only a
 
 ### Entity Framework and Embedded Resources
 
-Alive has had a [known bug](https://github.com/CodeConnect/AliveFeedback/issues/47) (since October!) that affects code that interacts with Entity Framework. The underlying reason for this is that EF uses a custom built task to embed special CSDL, MSL and SSDL resources within the output DLL. It turns out we had a similar problem embedding `.resx` resource files within output DLLs. We’re happy to announce that we’ve fixed both these issues and Alive should work find with both Entity Framework and embedded resources!
+Alive has had a [known bug](https://github.com/CodeConnect/AliveFeedback/issues/47) (since October!) that impacted code that interacted with Entity Framework. The underlying reason for this is that EF uses a custom built task to embed special CSDL, MSL and SSDL resources within the output DLL. It turns out we had a similar problem embedding `.resx` resource files within output DLLs. We’re happy to announce that we’ve fixed both these issues and Alive should work find with both Entity Framework and embedded resources!
 
 **Like what you see?**
 
