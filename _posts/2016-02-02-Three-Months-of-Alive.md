@@ -47,11 +47,11 @@ Over the last few months we reached out to users via interviews, surveys and our
 
 ## Performance
 
-As we hurried to ensure Alive met all the functional goals we laid out for it in time for our release, we ran out of time to properly focus on Alive’s performance. In November, if you used Alive on Newtonsoft.Json you might have seen up to 14 seconds (yikes!) between subsequent runs of Alive. Immediately after our launch we took steps to drastically improve performance.
+As we hurried to ensure Alive met all its functional goals in time for our release, we ran out of time to properly focus on Alive’s performance. In November, if you used Alive on Newtonsoft.Json you might have had to wait 14 seconds (yikes!) between subsequent runs of Alive. Immediately after our launch we took steps to drastically improve performance.
 
 ### Performance: Caching
 
-Alive runs your code after compiling and emitting it to a directory in %LocalAppData%. This means we have to copy all referenced DLLs to the directory before running your code. The first step we took was to stop any unnecessary copies of DLLs to this directory. If an assembly hasn’t changed between subsequent runs of Alive, we shouldn’t waste time copying it around.
+Alive runs your code after compiling and emitting it to a directory in `%LocalAppData%`. This means we have to copy all referenced DLLs to the directory before running your code. The first step we took was to stop any unnecessary copies of DLLs to this directory. If an assembly hasn’t changed between subsequent runs of Alive, we shouldn’t waste time copying it around.
 
 This was true no only for referenced DLLs, but for DLLs generated when building your projects. In fact, if a project hasn’t changed we shouldn’t even waste time compiling it in the first place and instead cache the DLL.
 
