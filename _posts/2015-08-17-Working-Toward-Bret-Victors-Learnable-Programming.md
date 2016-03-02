@@ -145,7 +145,7 @@ Bret goes on, saying:
 
 > Here is a more useful attitude: Programming has to work like this. Programmers must be able to read the vocabulary, follow the flow, and see the state. Programmers have to create by reacting and create by abstracting. Assume that these are requirements. Given these requirements, how do we redesign programming?
 
-This attitude is a losing one. For all its warts, bumps, pains and bugs, programming today works somewhat decently enough. The field has plenty of room for improvement, but not of "burn it to ground" flavor suggested here. In order for programmers to sacrifice their massive investment in today's languages and tools such a redesign of programming would have to offer *extremely* compelling improvements. (I'd wager they'd need to see improvement of at least **one to two** orders of magnitude).
+This attitude is a losing one. For all its warts, bumps, pains and bugs, programming today works somewhat decently enough. The field has plenty of room for improvement, but not of the "burn it to ground" flavor suggested here. In order for programmers to sacrifice their massive investment in today's languages and tools such a redesign of programming would have to offer *extremely* compelling improvements. (I'd wager they'd need to see improvement of at least **one to two** orders of magnitude).
 
 So let me give an additional requirement: **Any live programming system must interface fluently with existing languages and tools**.
 
