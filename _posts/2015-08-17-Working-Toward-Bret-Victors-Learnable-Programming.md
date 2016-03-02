@@ -40,7 +40,7 @@ A few of my favorite examples of this:
 
 These ideas and the approaches Bret demonstrates are nothing short of incredible. Bret's work has given us a destination for what a modern programming environment might look like, but not much is said on how we should get there. 
 
-### What  gets right
+### What Bret gets right
 
 Our experience building and using Alive daily has shown us that Bret gets the fundamental points right. I'll defer to [the original essay](http://worrydream.com/LearnableProgramming/) for complete explanations of these ideas, but we can take a look at Alive's interpretation of them.
 
