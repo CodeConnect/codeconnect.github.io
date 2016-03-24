@@ -10,19 +10,24 @@ While Alive largely focuses on showing you what data flows through your programs
 
 Today we're happy to announce the introduction of **code highlighting** for Alive. Code highlighting grays out lines of code that were not executed, making it even easier to understand your code. 
 
-![GIF that shows before and after the highlighting](/images/Highlighting/highlighting.gif)
+![GIF that shows before and after the highlighting](/images/Highlighting/highlighting-binary.gif)
+
+---
 
 Highlighting makes it easy to see which code paths were taken in a method and how these paths are impacted when you change your code.
 
 <video autoplay loop preload>
-		<source src="https://codeconnectcdn.blob.core.windows.net/cdn/blog/highlighting-video.mp4" type="video/mp4">
-		<source src="https://codeconnectcdn.blob.core.windows.net/cdn/blog/2016.02.02/highlighting-video.webm" type="video/webm">
+		<source src="https://codeconnectcdn.blob.core.windows.net/cdn/blog/highlighting-editing.mp4" type="video/mp4">
+		<source src="https://codeconnectcdn.blob.core.windows.net/cdn/blog/highlighting-editing.webm" type="video/webm">
 </video>
+
+---
 
 Highlighting reveals where the assertion aborted code execution.
 
 ![Screenshot that shows behavior with exception](/images/Highlighting/highlighting-with-exception.png)
 
+---
 
 As usual, we're always open to feature requests and bug reports on our [public issue tracker](http://github.com/CodeConnect/AliveFeedback/). 
 
