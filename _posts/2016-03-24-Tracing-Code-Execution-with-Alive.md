@@ -8,10 +8,9 @@ We built [Alive](http://comealive.io) with one goal in mind: to show you what yo
 While Alive largely focuses on showing you what data flows through your programs, we saw this as an opportunity to visualize control flow as well.
 
 
-
 Today we're happy to announce the introduction of **code highlighting** for Alive. Code highlighting grays out lines of code that were not executed, making it even easier to understand your code. 
 
-![GIF that shows before and after the highlighting](/images/Highlighting/highlighting.gif)
+![GIF that shows before and after the highlighting](/images/Highlighting/highlighting-binary.gif)
 
 ---
 
