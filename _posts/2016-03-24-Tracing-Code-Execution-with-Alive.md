@@ -16,7 +16,21 @@ Highlighting makes it easy to see which code paths were taken in a method and ho
 
 <video autoplay loop preload>
 		<source src="https://codeconnectcdn.blob.core.windows.net/cdn/blog/highlighting-video.mp4" type="video/mp4">
-		<source src="https://codeconnectcdn.blob.core.windows.net/cdn/blog/2016.02.02/highlighting-video.webm" type="video/webm">
+		<source src="https://codeconnectcdn.blob.core.windows.net/cdn/blog/highlighting-video.webm" type="video/webm">
+</video>
+
+Highlighting makes it easy to see which code paths were taken in a method and how these paths are impacted when you change your code.
+
+<video autoplay loop preload>
+		<source src="https://codeconnectcdn.blob.core.windows.net/cdn/blog/highlighting_binary.mp4" type="video/mp4">
+		<source src="https://codeconnectcdn.blob.core.windows.net/cdn/blog/highlighting_binary.webm" type="video/webm">
+</video>
+
+Highlighting makes it easy to see which code paths were taken in a method and how these paths are impacted when you change your code.
+
+<video autoplay loop preload>
+		<source src="https://codeconnectcdn.blob.core.windows.net/cdn/blog/highlighting-editing.mp4" type="video/mp4">
+		<source src="https://codeconnectcdn.blob.core.windows.net/cdn/blog/highlighting-editing.webm" type="video/webm">
 </video>
 
 Highlighting reveals where the assertion aborted code execution.
