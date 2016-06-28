@@ -9,7 +9,7 @@ At Microsoft we will continue full-time development on Alive and we'll be explor
 
 Source Browser and the Code Connect plugin will remain under our control. We're considering different ways in which we can continue and improve these tools and grow a community around them.
 
-If you have a current copy of Alive, it should continue to work with Visual Studio 2013 and 2015, but if you run into any issues or have any leftover questions about Alive, you can reach us directly at aliveq@microsoft.com.
+If you have a current copy of Alive, it should continue to work with Visual Studio 2013 and 2015, but if you run into any issues or have any leftover questions about Alive, you can reach us directly at `aliveq@microsoft.com`.
 
 We are grateful to our existing customers and the community, whose support at conferences, meetups and online has meant the world to us.
 
