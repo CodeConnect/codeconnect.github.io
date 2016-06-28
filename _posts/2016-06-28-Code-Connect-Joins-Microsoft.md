@@ -17,4 +17,4 @@ Thank you, and see you around!
 
 Josh & Amadeus
 
-*Stay tuned at www.visualstudio.com*
+*Stay tuned at [www.visualstudio.com](www.visualstudio.com)*
