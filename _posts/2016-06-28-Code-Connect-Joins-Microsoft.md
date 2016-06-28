@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: false
 title: Code Connect is joining Microsoft!
 ---
 
